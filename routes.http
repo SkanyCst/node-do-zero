@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-w94q.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -10,14 +10,14 @@ Content-Type: application/json
 ###
 
 //retorna todos os vídeos 
-GET http://localhost:3333/videos  
+GET https://node-do-zero-w94q.onrender.com/videos  
 
 //retorna vídeos com title específico como "node" 
-//GET http://localhost:3333/videos?search=node 
+//GET https://node-do-zero-w94q.onrender.com/videos?search=node 
 
 ###
 
-PUT http://localhost:3333/videos/c05e847d-cbdd-4133-969c-63921893c6de
+PUT https://node-do-zero-w94q.onrender.com/videos/31213692-e25b-445e-b434-13e9036e3358
 Content-Type: application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/c3572fb8-515f-4a6e-942c-a2e07ff763f1
+DELETE https://node-do-zero-w94q.onrender.com/videos/31213692-e25b-445e-b434-13e9036e3358
